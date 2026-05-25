@@ -3,15 +3,6 @@
   "name": "hpoetry",
   "compatibility_date": "2026-05-25",
   "observability": {
-    "enabled": true
-  },
-  "assets": {
-    "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "observability": {
     "enabled": true,
     "head_sampling_rate": 1,
     "logs": {
@@ -25,5 +16,11 @@
       "persist": true,
       "head_sampling_rate": 1
     }
-  }
+  },
+  "assets": {
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
